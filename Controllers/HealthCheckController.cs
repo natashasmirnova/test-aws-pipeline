@@ -14,13 +14,7 @@ namespace netcore_api.Controllers
         [HttpGet]
         public string Get()
         {
-            return "Hello world";
-        }
-
-        [HttpGet("helloworld")]
-        public string HelloWorld()
-        {
-            return "Hello world";
+            return "Hello world 1";
         }
     }
 }
